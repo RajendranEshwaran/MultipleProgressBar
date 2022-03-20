@@ -2,7 +2,7 @@
 //  MultipleProgressBarApp.swift
 //  MultipleProgressBar
 //
-//  Created by gomathi saminathan on 3/20/22.
+//  Created by Rajendran Eshwaran on 3/20/22.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct MultipleProgressBarApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

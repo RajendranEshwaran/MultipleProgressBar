@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9747045D27E7EA5000C02F81 /* MultipleProgressBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747045C27E7EA5000C02F81 /* MultipleProgressBarApp.swift */; };
-		9747045F27E7EA5000C02F81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747045E27E7EA5000C02F81 /* ContentView.swift */; };
+		9747045F27E7EA5000C02F81 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747045E27E7EA5000C02F81 /* MainView.swift */; };
 		9747046127E7EA5400C02F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9747046027E7EA5400C02F81 /* Assets.xcassets */; };
 		9747046427E7EA5400C02F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9747046327E7EA5400C02F81 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		9747045927E7EA5000C02F81 /* MultipleProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9747045C27E7EA5000C02F81 /* MultipleProgressBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleProgressBarApp.swift; sourceTree = "<group>"; };
-		9747045E27E7EA5000C02F81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9747045E27E7EA5000C02F81 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9747046027E7EA5400C02F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9747046327E7EA5400C02F81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				9747045C27E7EA5000C02F81 /* MultipleProgressBarApp.swift */,
-				9747045E27E7EA5000C02F81 /* ContentView.swift */,
+				9747045E27E7EA5000C02F81 /* MainView.swift */,
 				9747046027E7EA5400C02F81 /* Assets.xcassets */,
 				9747046227E7EA5400C02F81 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9747045F27E7EA5000C02F81 /* ContentView.swift in Sources */,
+				9747045F27E7EA5000C02F81 /* MainView.swift in Sources */,
 				9747045D27E7EA5000C02F81 /* MultipleProgressBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
