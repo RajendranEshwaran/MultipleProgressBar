@@ -17,6 +17,7 @@
 		9747047327E7F3AE00C02F81 /* RainbowGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747047227E7F3AE00C02F81 /* RainbowGaugeView.swift */; };
 		9747047527E7F3D200C02F81 /* RainbowSpeedMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747047427E7F3D200C02F81 /* RainbowSpeedMeterView.swift */; };
 		9747047727E7F45E00C02F81 /* LinearGaugeMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747047627E7F45E00C02F81 /* LinearGaugeMeterView.swift */; };
+		9747047A27E8D43B00C02F81 /* AnimatedCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747047927E8D43B00C02F81 /* AnimatedCircularView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		9747047227E7F3AE00C02F81 /* RainbowGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowGaugeView.swift; sourceTree = "<group>"; };
 		9747047427E7F3D200C02F81 /* RainbowSpeedMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowSpeedMeterView.swift; sourceTree = "<group>"; };
 		9747047627E7F45E00C02F81 /* LinearGaugeMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGaugeMeterView.swift; sourceTree = "<group>"; };
+		9747047927E8D43B00C02F81 /* AnimatedCircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCircularView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				9747047227E7F3AE00C02F81 /* RainbowGaugeView.swift */,
 				9747047427E7F3D200C02F81 /* RainbowSpeedMeterView.swift */,
 				9747047627E7F45E00C02F81 /* LinearGaugeMeterView.swift */,
+				9747047927E8D43B00C02F81 /* AnimatedCircularView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				9747047327E7F3AE00C02F81 /* RainbowGaugeView.swift in Sources */,
 				9747047727E7F45E00C02F81 /* LinearGaugeMeterView.swift in Sources */,
 				9747047127E7F38800C02F81 /* CircularProgessView.swift in Sources */,
+				9747047A27E8D43B00C02F81 /* AnimatedCircularView.swift in Sources */,
 				9747047527E7F3D200C02F81 /* RainbowSpeedMeterView.swift in Sources */,
 				9747046F27E7F35C00C02F81 /* HalvedCircularView.swift in Sources */,
 				9747046D27E7F31700C02F81 /* HomeView.swift in Sources */,

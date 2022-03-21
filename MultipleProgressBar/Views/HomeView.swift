@@ -20,6 +20,16 @@ struct HomeView: View {
                         .frame(width: 40, height: 40, alignment: .center)
                     Text("Circular")
                 }
+            AnimatedCircularView()
+                .tabItem{
+                    //Image("Circular")
+                    Image(systemName: "tray.circle.fill")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(1.0, contentMode: .fit)
+                        .frame(width: 40, height: 40, alignment: .center)
+                    Text("AnimatedCircular")
+                }
             HalvedCircularView()
                 .tabItem{
                     //Image("halved")

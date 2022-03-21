@@ -17,19 +17,6 @@ struct CircularProgessView: View {
             VStack{
                 ProgressBarView(progress: self.$progressValue)
                 
-                Button(action: {
-                    self.incrementProgress()
-                }) {
-                    HStack {
-                        Image(systemName: "plus.rectangle.fill")
-                        Text("Increment")
-                    }
-                    .padding(15.0)
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 15.0)
-                            .stroke(lineWidth: 2.0)
-                    )
-                }
                 Slider(value: Binding(get: {
                            self.progressValue
                        }, set: { (newVal) in
@@ -61,13 +48,15 @@ struct ProgressBarView : View{
             Circle()
                 .stroke(lineWidth: 20)
                 .opacity(0.3)
-                .foregroundColor(.red)
+                .foregroundColor(.green)
+                .frame(width: 200, height: 200)
             withAnimation(.linear){
             Circle()
                 .trim(from: 0.0, to: CGFloat(min(self.progress, 1.0)))
                 .stroke(style: StrokeStyle(lineWidth: 20.0, lineCap: .round, lineJoin: .round))
-                .foregroundColor(.red)
+                .foregroundColor(.green)
                 .rotationEffect(Angle(degrees: 270.0))
+                .frame(width: 200, height: 200)
             }
             Text(String(format: "%.0f %%", min(self.progress, 1.0)*100.0))
                             .font(.largeTitle)
@@ -75,3 +64,5 @@ struct ProgressBarView : View{
         }
     }
 }
+
+
