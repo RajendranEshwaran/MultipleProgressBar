@@ -1,5 +1,5 @@
 //
-//  MainView.swift
+//  CircularProgess.swift
 //  MultipleProgressBar
 //
 //  Created by Rajendran Eshwaran on 3/20/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainView: View {
+struct CircularProgessView: View {
     @State var progressValue: Float = 0.0
     var body: some View {
         ZStack{
@@ -48,9 +48,9 @@ struct MainView: View {
     }
 }
 
-struct MainView_Previews: PreviewProvider {
+struct CircularProgessView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        CircularProgessView()
     }
 }
 

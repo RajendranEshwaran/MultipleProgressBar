@@ -11,6 +11,12 @@
 		9747045F27E7EA5000C02F81 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747045E27E7EA5000C02F81 /* MainView.swift */; };
 		9747046127E7EA5400C02F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9747046027E7EA5400C02F81 /* Assets.xcassets */; };
 		9747046427E7EA5400C02F81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9747046327E7EA5400C02F81 /* Preview Assets.xcassets */; };
+		9747046D27E7F31700C02F81 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747046C27E7F31700C02F81 /* HomeView.swift */; };
+		9747046F27E7F35C00C02F81 /* HalvedCircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747046E27E7F35C00C02F81 /* HalvedCircularView.swift */; };
+		9747047127E7F38800C02F81 /* CircularProgessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747047027E7F38800C02F81 /* CircularProgessView.swift */; };
+		9747047327E7F3AE00C02F81 /* RainbowGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747047227E7F3AE00C02F81 /* RainbowGaugeView.swift */; };
+		9747047527E7F3D200C02F81 /* RainbowSpeedMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747047427E7F3D200C02F81 /* RainbowSpeedMeterView.swift */; };
+		9747047727E7F45E00C02F81 /* LinearGaugeMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747047627E7F45E00C02F81 /* LinearGaugeMeterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		9747045E27E7EA5000C02F81 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9747046027E7EA5400C02F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9747046327E7EA5400C02F81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9747046C27E7F31700C02F81 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9747046E27E7F35C00C02F81 /* HalvedCircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalvedCircularView.swift; sourceTree = "<group>"; };
+		9747047027E7F38800C02F81 /* CircularProgessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgessView.swift; sourceTree = "<group>"; };
+		9747047227E7F3AE00C02F81 /* RainbowGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowGaugeView.swift; sourceTree = "<group>"; };
+		9747047427E7F3D200C02F81 /* RainbowSpeedMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowSpeedMeterView.swift; sourceTree = "<group>"; };
+		9747047627E7F45E00C02F81 /* LinearGaugeMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGaugeMeterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,8 @@
 		9747045B27E7EA5000C02F81 /* MultipleProgressBar */ = {
 			isa = PBXGroup;
 			children = (
-				9747045C27E7EA5000C02F81 /* MultipleProgressBarApp.swift */,
-				9747045E27E7EA5000C02F81 /* MainView.swift */,
+				9747046B27E7F2FC00C02F81 /* App */,
+				9747046A27E7F2F500C02F81 /* Views */,
 				9747046027E7EA5400C02F81 /* Assets.xcassets */,
 				9747046227E7EA5400C02F81 /* Preview Content */,
 			);
@@ -65,6 +77,28 @@
 				9747046327E7EA5400C02F81 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9747046A27E7F2F500C02F81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9747045E27E7EA5000C02F81 /* MainView.swift */,
+				9747046C27E7F31700C02F81 /* HomeView.swift */,
+				9747046E27E7F35C00C02F81 /* HalvedCircularView.swift */,
+				9747047027E7F38800C02F81 /* CircularProgessView.swift */,
+				9747047227E7F3AE00C02F81 /* RainbowGaugeView.swift */,
+				9747047427E7F3D200C02F81 /* RainbowSpeedMeterView.swift */,
+				9747047627E7F45E00C02F81 /* LinearGaugeMeterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9747046B27E7F2FC00C02F81 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9747045C27E7EA5000C02F81 /* MultipleProgressBarApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9747047327E7F3AE00C02F81 /* RainbowGaugeView.swift in Sources */,
+				9747047727E7F45E00C02F81 /* LinearGaugeMeterView.swift in Sources */,
+				9747047127E7F38800C02F81 /* CircularProgessView.swift in Sources */,
+				9747047527E7F3D200C02F81 /* RainbowSpeedMeterView.swift in Sources */,
+				9747046F27E7F35C00C02F81 /* HalvedCircularView.swift in Sources */,
+				9747046D27E7F31700C02F81 /* HomeView.swift in Sources */,
 				9747045F27E7EA5000C02F81 /* MainView.swift in Sources */,
 				9747045D27E7EA5000C02F81 /* MultipleProgressBarApp.swift in Sources */,
 			);
