@@ -20,7 +20,7 @@ struct HomeView: View {
                         .frame(width: 40, height: 40, alignment: .center)
                     Text("Circular")
                 }
-            AnimatedCircularView()
+            /*AnimatedCircularView()
                 .tabItem{
                     //Image("Circular")
                     Image(systemName: "tray.circle.fill")
@@ -29,7 +29,7 @@ struct HomeView: View {
                         .aspectRatio(1.0, contentMode: .fit)
                         .frame(width: 40, height: 40, alignment: .center)
                     Text("AnimatedCircular")
-                }
+                }*/
             HalvedCircularView()
                 .tabItem{
                     //Image("halved")
@@ -57,7 +57,7 @@ struct HomeView: View {
                         .frame(width: 40, height: 40, alignment: .center)
                     Text("SpeedMeter")
                 }
-            LinearGaugeMeterView()
+            /*LinearGaugeMeterView()
                 .tabItem{
                     //Image("linear")
                     Image(systemName: "rectangle.portrait.trailingthird.inset.filled")
@@ -65,7 +65,7 @@ struct HomeView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 40, height: 40, alignment: .center)
                     Text("Linear")
-                }
+                }*/
         }
     }
 }

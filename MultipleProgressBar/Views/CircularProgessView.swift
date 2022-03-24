@@ -25,6 +25,7 @@ struct CircularProgessView: View {
                     .accentColor(Color.green)
                 
                 Spacer()
+                AnimatedCircularView()
             }
         }
         

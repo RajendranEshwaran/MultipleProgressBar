@@ -21,7 +21,6 @@ struct RainbowSpeedMeterView_Previews: PreviewProvider {
 
 struct Home : View{
     @State var progress: CGFloat = 0.0
-    
     let colors = [Color("Color"),Color("Color1")]
     var body: some View{
         VStack{
